@@ -44,7 +44,7 @@ class _ChatScreenState extends State<ChatScreen> {
           "ChatBot",
           style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0XFF25D366),
       ),
       body: Column(
         children: [
@@ -181,7 +181,7 @@ class _ChatScreenState extends State<ChatScreen> {
               ],
             ),
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 10),
         ],
       ),
     );
